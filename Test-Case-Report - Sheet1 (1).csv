@@ -1,0 +1,12 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result's,Actual Result's,Status,Severity Level,Assign To ,Remarks
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,Low,-,No Issued found
+ TC002,Validate search bar functionality.,"1-Enter the name of a product in the search bar.
+2-Press the ""Search"" button or hit ""Enter.""",Only the product matching the entered name is displayed on the screen.,Only the product matching the entered name is displayed on the screen.,Passed, Low.,-, No Issue found
+TC003,Validate filter functionality.,"1-Select a gender (Men, Women, Both).
+2-Select a color (e.g., White).
+3-Select a price range (0-2500, 2500-7500, 7500+).",Products are displayed based on selected filters.,Products are displayed based on selected filters.,Passed,Medium.,-,No Issue found
+TC004,Validate product detail page,Open product detail page > Verify products,Products detail displayed correctly,Products detail displayed correctly,Passed,Low,-,No Issued found
+TC005,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,High,-,Handled gracefully
+TC006,Check cart functionality,Add product to Cart > Verify cart contents,The cart is updated with the added product.,The cart is updated with the added product.,Passed,Low,-,No Issued found
+TC007,Check Order detail,Information in order detail > View Information,Change according to information,Change according to information,Passed,Low,-,No Issued found
+TC008,Ensure Responsiveness,Resize browser window > Check layout,Layout adjust according to screen size,Layout adjust according to screen size,Passed,Low,-,No Issued found
